@@ -4,16 +4,18 @@ _G = nil
 local debug = debug
 debug = nil
 
-if UwU then
-    while true do return error("[Detect]: Bruh"), false end
-elseif not UwU then
-    do
-        local UwU = "UwU"
+do
+    if UwU then
+        do while true do return error("[Detect]: Bruh"), false end end
+    elseif not UwU then
         do
-            local Name = UwU
-            return Name
+            local UwU = "UwU"
+            do
+                local Name = UwU
+                return Name
+            end
         end
+    else
+        do while true do return error("[Detect]: Bruh"), false end end
     end
-else
-    while true do return error("[Detect]: Bruh"), false end
 end
