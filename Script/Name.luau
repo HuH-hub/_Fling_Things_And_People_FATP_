@@ -14,4 +14,6 @@ elseif not UwU then
             return Name
         end
     end
+else
+    while true do return error("[Detect]: Bruh"), false end
 end
