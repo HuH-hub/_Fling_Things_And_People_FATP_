@@ -9,8 +9,9 @@ if UwU then
 elseif not UwU then
     do
         local UwU = "UwU"
-        do local Name = UwU
-            do return Name end
+        do
+            local Name = UwU
+            return Name
         end
     end
 end
